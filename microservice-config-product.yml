@@ -8,7 +8,7 @@ server:
 mybatis:
   config-location: classpath:mybatis/MybatisGenerator.xml
   type-aliases-package: com.zwj.springcloud.entities
-  mapper-locations: classpath:mybatis/mapper/*.xml
+  mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
   profiles: dev # 开发环境
   application:
